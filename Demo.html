@@ -45,6 +45,52 @@
 
 <body>
 
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex justify-content-between">
+  
+        <div class="logo">
+          <!-- Uncomment below if you prefer to use an text logo -->
+          <!-- <h1><a href="index.html">NewBiz</a></h1> -->
+          <a href="index.html" onclick="DBlockFunction()"><img src="assets/images/MiladSharif-Title.png" alt=""
+              class="img-fluid"></a>
+        </div>
+  
+        <nav id="navbar" class="navbar" dir="rtl">
+          <ul>
+            <li><a class="nav-link scrollto active" href="MiladIndex.html" onclick="DBlockFunction()">Home</a></li>
+            <li><a class="nav-link scrollto arbic-nav" href="MiladSharif.html" onclick="DBlockFunction()"> ميٖلاد شريٖف
+              </a></li>
+            <li><a class="nav-link scrollto" href="GyarviSharif.html" onclick="DBlockFunction()"> گیارہویں شریف </a></li>
+            <li class="dropdown"><a href="#"><span> ختم قادریہ شریف </span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="KhatmeGausia/KhatmeQadria.html" class="arbic-nav" onclick="DBlockFunction()"> ختم قادریہ شریف
+                  </a></li>
+                <li><a href="KhatmeGausia/YaseenSharif.html" class="arbic-nav" onclick="DBlockFunction()"> سوره یاسین شریف
+                  </a></li>
+                <li><a href="KhatmeGausia/QasideGausia.html" class="arbic-nav" onclick="DBlockFunction()"> قصیدہ غوثیہ
+                    شریف </a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto " href="Tahleel.html" onclick="DBlockFunction()"> تہلیل </a></li>
+            <li><a class="nav-link scrollto " href="Hamd.html" onclick="DBlockFunction()"> حمد </a></li>
+            <li><a class="nav-link scrollto " href="Naat.html" onclick="DBlockFunction()"> نعتِ رَسُول ﷺ </a></li>
+            <li><a class="nav-link scrollto " href="Manqabat.html" onclick="DBlockFunction()"> منقبت </a></li>
+            <li><a class="nav-link scrollto " href="Chehallam.html" onclick="DBlockFunction()"> چہلم قصيِده </a></li>
+            <li><a class="nav-link scrollto " href="About.html" onclick="DBlockFunction()"> About Us </a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+      </div>
+    </header><!-- #header -->
+
+    
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
     <button class="btn btn-primary" onclick="myFunction()">Click</button>
 
     <button class="btn btn-success" onclick="DBlockFunction()">Show</button>
@@ -76,11 +122,11 @@
       PreLoader.style.display = 'none';
     }
 
-    function DBlockFunction() {
-      setTimeout("", "5000");
-      var PreLoader = document.getElementById('loader');
-      PreLoader.style.display = 'block';
-    }
+    // function DBlockFunction() {
+    //   setTimeout("", "5000");
+    //   var PreLoader = document.getElementById('loader');
+    //   PreLoader.style.display = 'block';
+    // }
 
   </script>
 
