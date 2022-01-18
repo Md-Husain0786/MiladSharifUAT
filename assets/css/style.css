@@ -22,7 +22,7 @@
   margin: 0 auto;
   position: relative;
   animation: loader 5s linear infinite;
-  margin-top: 180pxt5;
+  margin-top: 180px;
 }
 #loader div{
   height: 5vw;
