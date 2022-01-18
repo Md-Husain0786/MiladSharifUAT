@@ -47,6 +47,10 @@
 
     <button class="btn btn-primary" onclick="myFunction()">Click</button>
 
+    <button class="btn btn-success" onclick="DBlockFunction()">Show</button>
+
+    <a href="MiladSharif.html" onclick="DBlockFunction()" class="btn btn-danger">Go to Milad</a>
+
     <div id="loader">
        <div class="one"></div>
        <div class="two"></div>
@@ -70,6 +74,12 @@
       setTimeout("", "5000");
       var PreLoader = document.getElementById('loader');
       PreLoader.style.display = 'none';
+    }
+
+    function DBlockFunction() {
+      setTimeout("", "5000");
+      var PreLoader = document.getElementById('loader');
+      PreLoader.style.display = 'block';
     }
 
   </script>
