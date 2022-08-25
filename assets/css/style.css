@@ -1,4 +1,10 @@
 
+.husain{
+  font-weight: bold;
+  font-size: 25px;
+  color: darkslategrey;
+}
+
 /* -- Back Button -- */
 
 #BackBtn{
@@ -22,7 +28,8 @@
   margin: 0 auto;
   position: relative;
   animation: loader 5s linear infinite;
-  margin-top: 200px;
+  margin-top: 250px;
+  z-index: 999;
 }
 #loader div{
   height: 5vw;

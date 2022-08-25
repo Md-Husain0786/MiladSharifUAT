@@ -53,28 +53,29 @@
             <div class="logo">
                 <!-- Uncomment below if you prefer to use an text logo -->
                 <!-- <h1><a href="index.html">NewBiz</a></h1> -->
-                <a href="../index.html"><img src="../assets/images/MiladSharif-Title.png" alt="" class="img-fluid"></a>
+                <a href="../index.html" onclick="DBlockFunction()"><img src="../assets/images/MiladSharif-Title.png" alt="" class="img-fluid"></a>
             </div>
 
             <nav id="navbar" class="navbar" dir="rtl">
                 <ul>
-                    <li><a class="nav-link scrollto" href="../MiladIndex.html">Home</a></li>
-                    <li><a class="nav-link scrollto arbic-nav" href="../MiladSharif.html"> ميٖلاد شريٖف </a></li>
-                    <li><a class="nav-link scrollto" href="../GyarviSharif.html"> گیارہویں شریف </a></li>
+                    <li><a class="nav-link scrollto" href="../MiladIndex.html" onclick="DBlockFunction()">Home</a></li>
+                    <li><a class="nav-link scrollto arbic-nav" href="../MiladSharif.html" onclick="DBlockFunction()"> ميٖلاد شريٖف </a></li>
+                    <li><a class="nav-link scrollto" href="../GyarviSharif.html" onclick="DBlockFunction()"> گیارہویں شریف </a></li>
                     <li class="dropdown"><a href="#"><span class="active"> ختم قادریہ شریف </span> <i
                                 class="bi bi-chevron-down"></i></a>
                         <ul>
-                            <li><a href="KhatmeQadria.html" class="arbic-nav"> ختم قادریہ شریف </a></li>
-                            <li><a href="YaseenSharif.html" class="arbic-nav"> سوره یاسین شریف </a></li>
-                            <li><a href="QasideGausia.html" class="arbic-nav"> قصیدہ غوثیہ شریف </a></li>
+                            <li><a href="KhatmeQadria.html" class="arbic-nav" onclick="DBlockFunction()"> ختم قادریہ شریف </a></li>
+                            <li><a href="YaseenSharif.html" class="arbic-nav" onclick="DBlockFunction()"> سوره یاسین شریف </a></li>
+                            <li><a href="QasideGausia.html" class="arbic-nav" onclick="DBlockFunction()"> قصیدہ غوثیہ شریف </a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto " href="../Tahleel.html"> تہلیل </a></li>
-                    <li><a class="nav-link scrollto " href="../Hamd.html"> حمد </a></li>
-                    <li><a class="nav-link scrollto " href="../Naat.html"> نعتِ رَسُول ﷺ </a></li>
-                    <li><a class="nav-link scrollto " href="../Manqabat.html"> منقبت </a></li>
-                    <li><a class="nav-link scrollto " href="../Chehallam.html"> چہلم قصيِده </a></li>
-                    <li><a class="nav-link scrollto " href="../About.html"> About Us </a></li>
+                    <li><a class="nav-link scrollto " href="../Tahleel.html" onclick="DBlockFunction()"> تہلیل </a></li>
+                    <li><a class="nav-link scrollto " href="../Hamd.html" onclick="DBlockFunction()"> حمد </a></li>
+                    <li><a class="nav-link scrollto " href="../Naat.html" onclick="DBlockFunction()"> نعتِ رَسُول ﷺ </a></li>
+                    <li><a class="nav-link scrollto " href="../Manqabat.html" onclick="DBlockFunction()"> منقبت </a></li>
+                    <li><a class="nav-link scrollto " href="../Rifai.html" onclick="DBlockFunction()"> رفائی </a></li>
+                    <li><a class="nav-link scrollto " href="../Chehallam.html" onclick="DBlockFunction()"> چہلم قصيِده </a></li>
+                    <li><a class="nav-link scrollto " href="../About.html" onclick="DBlockFunction()"> About Us </a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -96,6 +97,29 @@
     <button onclick="history.back(-1)" id="BackBtn" class="btn">
       <i class="fa fa-arrow-circle-left backbtnclass"></i>
   </button>
+
+  <div id="BreakTheLine" style="display: none;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mx-auto">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
     <main id="main">
 
@@ -633,7 +657,7 @@
                         &copy; Copyright <strong>Milad Sharif</strong>. All Rights Reserved
                     </div>
                     <div class="credits">
-                        Designed by <a href="https://mdhussain.netlify.app/">Md.Hussain</a>
+                        Designed by <a href="../mdhusain/Index.html" onclick="DBlockFunction()">Md.Hussain</a>
                     </div>
                 </div>
             </div>

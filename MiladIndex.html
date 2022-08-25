@@ -59,6 +59,29 @@
     <i class="fa fa-arrow-circle-left backbtnclass"></i>
   </button>
 
+  <div id="BreakTheLine" style="display:none;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mx-auto">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between">
@@ -90,6 +113,7 @@
           <li><a class="nav-link scrollto " href="Hamd.html" onclick="DBlockFunction()"> حمد </a></li>
           <li><a class="nav-link scrollto " href="Naat.html" onclick="DBlockFunction()"> نعتِ رَسُول ﷺ </a></li>
           <li><a class="nav-link scrollto " href="Manqabat.html" onclick="DBlockFunction()"> منقبت </a></li>
+          <li><a class="nav-link scrollto " href="Rifai.html" onclick="DBlockFunction()"> رفائی </a></li>
           <li><a class="nav-link scrollto " href="Chehallam.html" onclick="DBlockFunction()"> چہلم قصيِده </a></li>
           <li><a class="nav-link scrollto " href="About.html" onclick="DBlockFunction()"> About Us </a></li>
         </ul>
@@ -116,7 +140,7 @@
 
         <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
           <div class="box">
-            <a href="MiladSharif.html">
+            <a href="MiladSharif.html" onclick="DBlockFunction()">
               <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
                 ميٖلاد شريٖف </h1>
             </a>
@@ -125,7 +149,7 @@
 
         <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
           <div class="box">
-            <a href="GyarviSharif.html">
+            <a href="GyarviSharif.html" onclick="DBlockFunction()">
               <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
                 گیارہویں شریف </h1>
             </a>
@@ -134,7 +158,7 @@
 
         <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
           <div class="box">
-            <a href="Tahleel.html">
+            <a href="Tahleel.html" onclick="DBlockFunction()">
               <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
                 تہلیل </h1>
             </a>
@@ -144,7 +168,7 @@
 
         <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
           <div class="box">
-            <a href="KhatmeQadria.html">
+            <a href="KhatmeQadria.html" onclick="DBlockFunction()">
               <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
                 ختم قادریہ شریف </h1>
             </a>
@@ -154,7 +178,7 @@
 
         <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
           <div class="box">
-            <a href="Hamd.html">
+            <a href="Hamd.html" onclick="DBlockFunction()">
               <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
                 حمد </h1>
             </a>
@@ -164,7 +188,7 @@
 
         <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
           <div class="box">
-            <a href="Naat.html">
+            <a href="Naat.html" onclick="DBlockFunction()">
               <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
                 نعتِ رَسُول ﷺ </h1>
             </a>
@@ -174,9 +198,18 @@
 
         <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
           <div class="box">
-            <a href="Manqabat.html">
+            <a href="Manqabat.html" onclick="DBlockFunction()">
               <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
                 منقبت </h1>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+          <div class="box">
+            <a href="Rifai.html" onclick="myFunction()">
+              <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
+                رفائی </h1>
             </a>
           </div>
         </div>
@@ -184,7 +217,7 @@
 
         <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
           <div class="box">
-            <a href="Chehallam.html">
+            <a href="Chehallam.html" onclick="DBlockFunction()">
               <h1 class="header-title"><i class="fa fa-asterisk fa-4" style="color: #ff689b; margin-top:2px;"></i>
                 چہلم قصيِده </h1>
             </a>
@@ -200,17 +233,19 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
     <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>NewBiz</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="copyright">
+                    &copy; Copyright <strong>Milad Sharif</strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="./mdhusain/Index.html" onclick="DBlockFunction()">Md.Hussain</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer><!-- End Footer -->
+</footer><!-- End Footer -->
 
   <!-- --- pre loader --- -->
 

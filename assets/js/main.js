@@ -1,15 +1,29 @@
 function DBlockFunction() {
+
+  setTimeout("", "5000");
+  var footer = document.getElementById('BreakTheLine');
+  footer.style.display = 'block';
+
+  setTimeout("", "5000");
+  var Header = document.getElementById('navbar');
+  Header.style.display = 'none';
+
   setTimeout("", "5000");
   var PreLoader = document.getElementById('loader');
   PreLoader.style.display = 'block';
+
 }
 
-/**
-* Template Name: NewBiz - v4.7.0
-* Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
+function myFunction() {
+  setTimeout("", "5000");
+  var PreLoader = document.getElementById('loader');
+  PreLoader.style.display = 'none';
+
+  // setTimeout("", "5000");
+  // var footer = document.getElementById('BreakTheLine');
+  // footer.style.display = 'block';
+}
 (function() {
   "use strict";
 
