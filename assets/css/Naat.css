@@ -15,14 +15,6 @@
     font-weight: bold;
 }
 
-.ratib-title {
-    font-family: 'Noto Nastaliq Urdu', serif;
-    white-space: nowrap;
-    font-size: 15px;
-    color: red;
-    font-weight: bold;
-}
-
 @media only screen and (max-width:320px) {
     .padh-title {
         font-family: 'Noto Nastaliq Urdu', serif;
